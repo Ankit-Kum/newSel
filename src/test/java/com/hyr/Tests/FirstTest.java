@@ -14,7 +14,7 @@ public class FirstTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
-		driver.findElement(By.name("q")).sendKeys("cdac", Keys.ENTER);
+		driver.findElement(By.name("q")).sendKeys("unahur", Keys.ENTER);
 		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
 		driver.quit();
@@ -26,7 +26,7 @@ public class FirstTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.name("email")).sendKeys("cdac", Keys.ENTER);
+		driver.findElement(By.name("email")).sendKeys("unahur", Keys.ENTER);
 		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
 		driver.quit();
