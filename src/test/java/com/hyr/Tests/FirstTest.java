@@ -17,6 +17,7 @@ public class FirstTest {
 		driver.findElement(By.name("q")).sendKeys("iphone", Keys.ENTER);
 		System.out.println(driver.getTitle());
 		driver.get("https://www.CDACDELHI.com/");
+		driver.get("https://youtube.com/");
 		Thread.sleep(5000);
 		driver.quit();
 	}
