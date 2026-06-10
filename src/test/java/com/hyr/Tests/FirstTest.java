@@ -27,8 +27,10 @@ public class FirstTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.name("email")).sendKeys("ankit", Keys.ENTER);
+		driver.get("https://www.Ankit.com/");
 		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
 		driver.quit();
 	}
+
 }
